@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Quentin
+ *
+ */
+module RPGTextuelJava {
+}
