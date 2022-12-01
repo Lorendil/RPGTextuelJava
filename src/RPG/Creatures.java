@@ -1,5 +1,5 @@
 package RPG;
 
-public class Creatures {
+public class Creatures extends Personnages {
 
 }
