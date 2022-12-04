@@ -33,6 +33,12 @@ public class Personnages {
 		System.out.println(" Vitalité : " + this.vitalite + "/" + this.vitaliteMax + "\n Attaque : " + this.attaque + "\n Defense : " + this.defense + "\n Initiative : "
 				+ this.initiative + "\n Chance de critique : " + this.critique + " %\n Mana : " + this.mana + "/" + this.manaMax);
 	}
+
+	void showMenu() {
+		//Permet de print les possibilités d'actions du joueur
+
+	}
+
 	void heal(int x) {
 		this.vitalite += x;
 		if (this.vitalite > this.vitaliteMax) {
