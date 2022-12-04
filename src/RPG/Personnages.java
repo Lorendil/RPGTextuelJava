@@ -7,6 +7,7 @@ public class Personnages {
 	private static Scanner scanNom;
 
 	String nom;
+	int level;
 	int attaque;
 	int defense;
 	int initiative;
@@ -16,7 +17,8 @@ public class Personnages {
 	int vitalite;
 	int vitaliteMax;
 
-	public Personnages() {
+	public Personnages(int lvl) {
+		this.level = lvl;
 
 	}
 

@@ -2,6 +2,7 @@ package RPG;
 
 public class Mage extends Personnages {
 	public Mage() {
+		super(1);
 		initialisation();
 		this.vitalite = 30;
 		this.vitaliteMax = 30;

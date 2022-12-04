@@ -2,6 +2,7 @@ package RPG;
 
 public class Guerrier extends Personnages {
 	public Guerrier() {
+		super(1);
 		initialisation();
 		this.vitalite = 50;
 		this.vitaliteMax = 50;

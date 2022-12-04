@@ -2,6 +2,7 @@ package RPG;
 
 public class Voleur extends Personnages {
 	public Voleur() {
+		super(1);
 		initialisation();
 		this.vitalite = 30;
 		this.vitaliteMax = 30;
