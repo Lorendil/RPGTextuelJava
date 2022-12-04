@@ -1,65 +1,42 @@
-Nom	Rareté	Vitalite	Attaque	Defense	Initiative	Critique	Mana
-Gobelin	Commun						
-Cavalier léger	Commun						
-Orc	Commun						
-Soldat à pied	Commun						
-Archer Gobelin	Commun						
-Soldat archer	Commun						
-Bandit	Commun						
-Apprenti sorcier	Commun						
-Loup noir	Commun						
-Rat des villes	Commun						
-Villageois	Commun						
-Python	Commun						
-Spectre	Commun						
-Squelette	Commun						
-Kobold	Commun						
-Démon mineur	Commun						
-Barbare	Commun						
-Sanglier	Commun						
-Milicien	Commun						
-Corbeau	Commun						
-Ours des bois	Peu Commun						
-Salamandre	Peu Commun						
-Manticore	Peu Commun						
-Golem	Peu Commun						
-Harpie	Peu Commun						
-Banshee	Peu Commun						
-Guivre	Peu Commun						
-Mercenaire	Peu Commun						
-Chevalier	Peu Commun						
-Clerc	Peu Commun						
-Magicien	Peu Commun						
-Milicien	Peu Commun						
-Garde de ville	Peu Commun						
-Troll	Peu Commun						
-Chien démoniaque	Peu Commun						
-Dryade	Rare						
-Cavalier sans tête	Rare						
-Doppelgänger	Rare						
-Griffon	Rare						
-Basilic	Rare						
-Hydre	Rare						
-Licorne	Rare						
-Paladin	Rare						
-Archimage	Rare						
-Chef bandit	Rare						
-Conquête	Unique						
-Guerre	Unique						
-Famine	Unique						
-Mort	Unique						
-Élu de la lumière	Unique						
-Roi démon	Unique						
-Sage divin	Unique						
-Esprit de la forêt	Unique						
-Spriggan	Rare						
-Poltergheist	Rare						
-Géant	Rare						
-Garde royal	Rare						
-Ingénieur militaire	Rare						
-Archer élite	Rare						
-Chevaucheur de loup	Peu Commun						
-Cultiste	Peu Commun						
-Élémentaire	Peu Commun						
-Chasseur des bois	Peu Commun						
-Esprit enragé	Peu Commun						
+Type	Rareté	Nom	Dégâts	Effet1 	Bonus1	Effet2	Bonus2	Effet3	Bonus3
+Voleur	Commun	Dagues de fer		Critique	20	Multiplicateur critique			
+Voleur	Commun	Arc		Initiative	5				
+Voleur	Commun	Épée courte et targe		Defense					
+Voleur	Commun								
+Voleur	Peu Commun								
+Voleur	Peu Commun								
+Voleur	Peu Commun								
+Voleur	Rare								
+Voleur	Rare								
+Voleur	Unique								
+Guerrier	Commun	Épée et bouclier							
+Guerrier	Commun								
+Guerrier	Commun								
+Guerrier	Commun								
+Guerrier	Peu Commun								
+Guerrier	Peu Commun								
+Guerrier	Peu Commun								
+Guerrier	Rare								
+Guerrier	Rare								
+Guerrier	Unique								
+Mage	Commun								
+Mage	Commun								
+Mage	Commun								
+Mage	Commun								
+Mage	Peu Commun								
+Mage	Peu Commun								
+Mage	Peu Commun								
+Mage	Rare								
+Mage	Rare								
+Mage	Unique								
+Commun	Commun								
+Commun	Commun								
+Commun	Commun								
+Commun	Commun								
+Commun	Peu Commun								
+Commun	Peu Commun								
+Commun	Peu Commun								
+Commun	Rare								
+Commun	Rare								
+Commun	Unique								
+Commun	Commun								
