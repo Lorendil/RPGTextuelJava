@@ -33,7 +33,9 @@ public class MecanismesDeJeu {
     void intersalles(){
 
     }
-    void menuDeJeu(){
+    public Personnages menuDeJeu(){
+        Guerrier test = new Guerrier();
+        return test;
 
     }
     void equipement(){
