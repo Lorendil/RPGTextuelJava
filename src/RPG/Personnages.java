@@ -22,6 +22,18 @@ public class Personnages {
 
 	}
 
+	public String toString() {
+		return ("Nom : " + this.nom + 
+				" Niveau : " + this.level + 
+				" Vitalité : " + this.vitalite + " / " + this.vitaliteMax +
+				" Attaque : " + this.attaque + 
+				" Defense : " + this.defense + 
+				" Initiative : " + this.initiative + 
+				" Critique : " + this.critique + 
+				" Mana : " + this.mana + " / " + this.manaMax);
+
+	}
+
 	void initialisation() {
 		scanNom = new Scanner(System.in);
 		System.out.print("Entrez le nom de votre personnage \n");
@@ -34,8 +46,18 @@ public class Personnages {
 				+ this.initiative + "\n Chance de critique : " + this.critique + " %\n Mana : " + this.mana + "/" + this.manaMax);
 	}
 
-	void showMenu() {
-		//Permet de print les possibilités d'actions du joueur
+	void showMainMenu() {
+		//Permet d'afficher le menu principal, avant une nouvelle partie
+
+	}
+
+	void showPauseMenu() {
+		//Permet d'afficher le menu principal pendant les phases hors combat
+
+	}
+
+	void showFightMenu() {
+		//Permet d'afficher les choix pendant le combat
 
 	}
 

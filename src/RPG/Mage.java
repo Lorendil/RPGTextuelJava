@@ -14,7 +14,7 @@ public class Mage extends Personnages {
 		this.vitaliteMax = 30;
 		this.attaque = 5;
 		this.defense = 2;
-		this.initiative = 0;
+		this.initiative = 5;
 		this.critique = 5;
 		this.mana = 25;
 		this.manaMax = 25;
