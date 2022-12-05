@@ -1,65 +1,65 @@
 Nom	Rareté	Vitalite	Attaque	Defense	Initiative	Critique	Mana
-Gobelin	Commun						
-Cavalier léger	Commun						
-Orc	Commun						
-Soldat à pied	Commun						
-Archer Gobelin	Commun						
-Soldat archer	Commun						
-Bandit	Commun						
-Apprenti sorcier	Commun						
-Loup noir	Commun						
-Rat des villes	Commun						
-Villageois	Commun						
-Python	Commun						
-Spectre	Commun						
-Squelette	Commun						
-Kobold	Commun						
-Démon mineur	Commun						
-Barbare	Commun						
-Sanglier	Commun						
-Milicien	Commun						
-Corbeau	Commun						
-Ours des bois	Peu Commun						
-Salamandre	Peu Commun						
-Manticore	Peu Commun						
-Golem	Peu Commun						
-Harpie	Peu Commun						
-Banshee	Peu Commun						
-Guivre	Peu Commun						
-Mercenaire	Peu Commun						
-Chevalier	Peu Commun						
-Clerc	Peu Commun						
-Magicien	Peu Commun						
-Milicien	Peu Commun						
-Garde de ville	Peu Commun						
-Troll	Peu Commun						
-Chien démoniaque	Peu Commun						
-Dryade	Rare						
-Cavalier sans tête	Rare						
-Doppelgänger	Rare						
-Griffon	Rare						
-Basilic	Rare						
-Hydre	Rare						
-Licorne	Rare						
-Paladin	Rare						
-Archimage	Rare						
-Chef bandit	Rare						
-Conquête	Unique						
-Guerre	Unique						
-Famine	Unique						
-Mort	Unique						
-Élu de la lumière	Unique						
-Roi démon	Unique						
-Sage divin	Unique						
-Esprit de la forêt	Unique						
-Spriggan	Rare						
-Poltergheist	Rare						
-Géant	Rare						
-Garde royal	Rare						
-Ingénieur militaire	Rare						
-Archer élite	Rare						
-Chevaucheur de loup	Peu Commun						
-Cultiste	Peu Commun						
-Élémentaire	Peu Commun						
-Chasseur des bois	Peu Commun						
-Esprit enragé	Peu Commun						
+Gobelin	Commun	25	8	1	4	1	0
+Cavalier léger	Commun	30	7	4	0	9	0
+Orc	Commun	35	6	1	4	1	0
+Soldat à pied	Commun	30	5	5	0	15	0
+Archer Gobelin	Commun	24	4	1	4	1	0
+Soldat archer	Commun	28	8	0	0	2	0
+Bandit	Commun	30	3	0	5	13	0
+Apprenti sorcier	Commun	25	7	0	3	2	0
+Loup noir	Commun	32	5	4	6	9	0
+Rat des villes	Commun	20	3	0	9	2	0
+Villageois	Commun	30	6	4	5	5	0
+Python	Commun	25	8	1	3	12	0
+Spectre	Commun	30	8	1	8	1	0
+Squelette	Commun	30	6	5	4	13	0
+Kobold	Commun	28	6	3	4	7	0
+Démon mineur	Commun	31	6	4	0	13	0
+Barbare	Commun	45	7	3	7	0	0
+Sanglier	Commun	36	8	0	0	1	0
+Milicien	Commun	31	6	0	1	9	0
+Corbeau	Commun	20	3	0	3	11	0
+Ours des bois	Peu Commun	45	10	3	0	12	0
+Salamandre	Peu Commun	35	6	5	4	17	0
+Manticore	Peu Commun	38	7	8	10	22	0
+Golem	Peu Commun	40	7	3	9	6	0
+Harpie	Peu Commun	35	7	6	11	20	0
+Banshee	Peu Commun	30	8	7	5	15	0
+Guivre	Peu Commun	40	5	3	10	9	0
+Mercenaire	Peu Commun	35	10	6	7	15	0
+Chevalier	Peu Commun	35	7	7	1	9	0
+Clerc	Peu Commun	30	6	6	5	1	0
+Magicien	Peu Commun	30	9	4	7	3	0
+Milicien	Peu Commun	30	8	6	9	9	0
+Garde de ville	Peu Commun	30	6	7	8	3	0
+Troll	Peu Commun	40	7	7	1	18	0
+Chien démoniaque	Peu Commun	29	9	5	7	3	0
+Dryade	Rare	30	7	7	4	27	0
+Cavalier sans tête	Rare	31	10	9	16	28	0
+Doppelgänger	Rare	33	11	9	16	16	0
+Griffon	Rare	37	10	5	4	17	0
+Basilic	Rare	41	7	10	7	32	0
+Hydre	Rare	33	7	8	11	17	0
+Licorne	Rare	35	10	7	15	30	0
+Paladin	Rare	30	12	6	14	38	0
+Archimage	Rare	30	11	6	10	36	0
+Chef bandit	Rare	35	12	9	12	27	0
+Conquête	Unique	60	14	9	14	39	0
+Guerre	Unique	60	10	10	16	38	0
+Famine	Unique	60	13	11	12	24	0
+Mort	Unique	60	13	10	15	38	0
+Élu de la lumière	Unique	55	10	12	19	33	0
+Roi démon	Unique	58	12	9	13	15	0
+Sage divin	Unique	50	11	12	20	29	0
+Esprit de la forêt	Unique	48	13	11	13	34	0
+Spriggan	Rare	30	8	10	14	35	0
+Poltergheist	Rare	30	7	10	6	40	0
+Géant	Rare	46	7	10	8	30	0
+Garde royal	Rare	35	9	5	12	26	0
+Ingénieur militaire	Rare	32	10	6	12	26	0
+Archer élite	Rare	30	12	5	16	20	0
+Chevaucheur de loup	Peu Commun	29	5	7	4	18	0
+Cultiste	Peu Commun	27	9	4	1	2	0
+Élémentaire	Peu Commun	29	6	4	10	0	0
+Chasseur des bois	Peu Commun	30	7	4	8	21	0
+Esprit enragé	Peu Commun	37	8	7	0	2	0

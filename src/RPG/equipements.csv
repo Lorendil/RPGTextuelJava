@@ -1,42 +1,25 @@
 Type	Rareté	Nom	Dégâts	Effet1 	Bonus1	Effet2	Bonus2	Effet3	Bonus3
-Voleur	Commun	Dagues de fer		Critique	20	Multiplicateur critique			
-Voleur	Commun	Arc		Initiative	5				
-Voleur	Commun	Épée courte et targe		Defense					
-Voleur	Commun								
-Voleur	Peu Commun								
-Voleur	Peu Commun								
-Voleur	Peu Commun								
-Voleur	Rare								
-Voleur	Rare								
-Voleur	Unique								
-Guerrier	Commun	Épée et bouclier							
-Guerrier	Commun								
-Guerrier	Commun								
-Guerrier	Commun								
-Guerrier	Peu Commun								
-Guerrier	Peu Commun								
-Guerrier	Peu Commun								
-Guerrier	Rare								
-Guerrier	Rare								
-Guerrier	Unique								
-Mage	Commun								
-Mage	Commun								
-Mage	Commun								
-Mage	Commun								
-Mage	Peu Commun								
-Mage	Peu Commun								
-Mage	Peu Commun								
-Mage	Rare								
-Mage	Rare								
-Mage	Unique								
-Commun	Commun								
-Commun	Commun								
-Commun	Commun								
-Commun	Commun								
-Commun	Peu Commun								
-Commun	Peu Commun								
-Commun	Peu Commun								
-Commun	Rare								
-Commun	Rare								
-Commun	Unique								
-Commun	Commun								
+Voleur	Commun	Dagues de fer	4	Critique	25	Multiplicateur critique			
+Voleur	Commun	Arc court	6	Initiative	5				
+Voleur	Commun	Épée courte et targe	5	Defense	2				
+Voleur	Commun	Dague à lancer	4	Initiative	3	Multiplicateur critique			
+Voleur	Peu Commun	Dagues aiguisées	5	Critique	25	Multiplicateur critique			
+Voleur	Peu Commun	Arbalète d’argent	8	Initiative	5	Multiplicateur critique			
+Voleur	Peu Commun	Arc long	9	Initiative	5				
+Voleur	Rare	Arc elfique	8	Critique	40	Lien de vie	4		
+Voleur	Rare	Dagues d’assassin	5	Critique	25	Multiplicateur critique	5	Poison	2
+Voleur	Unique	Crocs de dragon	7	Critique	35	Multiplicateur critique		Lien de vie	5
+Guerrier	Commun	Épée et rondache	5	Defense	3				
+Guerrier	Commun	Masse à deux mains	8						
+Guerrier	Commun	Lame double	9	Defense	-2				
+Guerrier	Commun	Hache de jet	6	Initiative	5				
+Guerrier	Peu Commun	Pavois et lance	6	Defense	5	Initiative	2		
+Guerrier	Peu Commun	Claymore	9	Initiative	1				
+Guerrier	Peu Commun	Épée longue et rondache	8	Defense	2				
+Guerrier	Rare	Hallebarde royale	11	Initiative	1				
+Guerrier	Rare	La tour	5	Defense	8	Contre-attaque			
+Guerrier	Unique	Dainsleif	10	Perce armure		Lien de vie	3	Initiative	1
+Mage	Commun	Baton de mage	3	Lien de mana	6				
+Mage	Peu Commun	Baton druidique	3	Lien de mana	8	Lien de vie	5		
+Mage	Rare	Sceptre d’archimage	4	Lien de mana	12				
+Mage	Unique	Fragment divin	2	Lien de mana	10	Lien de vie	10	Defense	5

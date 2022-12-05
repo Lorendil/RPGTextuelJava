@@ -1,5 +1,10 @@
 package RPG;
 
-public class Creatures extends Personnages {
+public class Creature extends Personnages {
+
+	public Creature(int lvl) {
+		super(lvl);
+		// TODO Auto-generated constructor stub
+	}
 
 }
