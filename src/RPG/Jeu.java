@@ -6,7 +6,7 @@ public class Jeu {
 
 		MecanismesDeJeu partie = new MecanismesDeJeu();
 
-		partie.menuDeJeu();
+		partie.showMainMenu();
 
 		while (salle < 21) {
 			partie.salle(salle);

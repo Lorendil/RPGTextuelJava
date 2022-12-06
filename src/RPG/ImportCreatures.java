@@ -12,7 +12,7 @@ public class ImportCreatures {
 		String ligne = "";
 		String splitBy = "\t";
 		int numeroLigne = 0;
-		Map<String, List>bestiaire = new HashMap<>();
+		Map<String, List> bestiaire = new HashMap<>();
 		List<Creature> listeCommun = new ArrayList<Creature>();
 		List<Creature> listePeuCommun = new ArrayList<Creature>();
 		List<Creature> listeRare = new ArrayList<Creature>();
@@ -22,11 +22,12 @@ public class ImportCreatures {
 			while ((ligne = br.readLine()) != null) {
 				Creature newCreature = new Creature();
 				String[] listeDesCreatures = ligne.split(splitBy);
-				//System.out.println("Nom : " + listeDesCreatures[0] + " - Rareté : " + listeDesCreatures[1]);
+				// System.out.println("Nom : " + listeDesCreatures[0] + " - Rareté : " +
+				// listeDesCreatures[1]);
 
 				if (numeroLigne > 0) {
 
-					if (listeDesCreatures[1].equals("Commun")){
+					if (listeDesCreatures[1].equals("Commun")) {
 						System.out.println("Commun");
 						newCreature.nom = listeDesCreatures[0];
 						newCreature.rarete = listeDesCreatures[1];
@@ -37,8 +38,7 @@ public class ImportCreatures {
 						newCreature.critique = Integer.parseInt(listeDesCreatures[6]);
 						newCreature.mana = Integer.parseInt(listeDesCreatures[7]);
 						listeCommun.add(newCreature);
-					}
-					else if(listeDesCreatures[1].equals("Peu Commun")){
+					} else if (listeDesCreatures[1].equals("Peu Commun")) {
 						System.out.println("Peu Commun");
 						newCreature.nom = listeDesCreatures[0];
 						newCreature.rarete = listeDesCreatures[1];
@@ -50,8 +50,7 @@ public class ImportCreatures {
 						newCreature.mana = Integer.parseInt(listeDesCreatures[7]);
 						listePeuCommun.add(newCreature);
 
-					}
-					else if(listeDesCreatures[1].equals("Rare")){
+					} else if (listeDesCreatures[1].equals("Rare")) {
 						System.out.println("Rare");
 						newCreature.nom = listeDesCreatures[0];
 						newCreature.rarete = listeDesCreatures[1];
@@ -63,8 +62,7 @@ public class ImportCreatures {
 						newCreature.mana = Integer.parseInt(listeDesCreatures[7]);
 						listeRare.add(newCreature);
 
-					}
-					else if(listeDesCreatures[1].equals("Unique")){
+					} else if (listeDesCreatures[1].equals("Unique")) {
 						System.out.println("Unique");
 						newCreature.nom = listeDesCreatures[0];
 						newCreature.rarete = listeDesCreatures[1];
@@ -80,7 +78,7 @@ public class ImportCreatures {
 				}
 				numeroLigne += 1;
 			}
-			
+
 		}
 
 		catch (IOException e) {

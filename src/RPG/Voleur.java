@@ -14,8 +14,9 @@ public class Voleur extends Personnages {
 		this.manaMax = 0;
 	}
 
-	void description(){
-		System.out.println("Le voleur est un personnage jouant autour de la priorité d'attaque et des coups critiques, il possède une faible armure lui permettant d'encaisser quelques dégâts");
+	void description() {
+		System.out.println(
+				"Le voleur est un personnage jouant autour de la priorité d'attaque et des coups critiques, il possède une faible armure lui permettant d'encaisser quelques dégâts");
 	}
 
 }

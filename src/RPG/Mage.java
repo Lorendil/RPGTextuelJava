@@ -4,11 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Mage extends Personnages {
-	Map<String, String>grimoire ;
+	Map<String, String> grimoire;
 
 	public Mage() {
 		super(1);
-		
+
 		initialisation();
 		this.vitalite = 30;
 		this.vitaliteMax = 30;
@@ -21,13 +21,15 @@ public class Mage extends Personnages {
 		this.grimoire = new HashMap<String, String>();
 		this.grimoire.put("Etincelle", "Lance des étincelles sur l'adversaire");
 	}
-	void description(){
-		//Permet d'afficher la description du personnage
-		System.out.println("Le mage est un personnage jouant autour de la magie et de différents sorts et armes magiques, il ne possède que des vêtements rudimentaires");
+
+	void description() {
+		// Permet d'afficher la description du personnage
+		System.out.println(
+				"Le mage est un personnage jouant autour de la magie et de différents sorts et armes magiques, il ne possède que des vêtements rudimentaires");
 	}
 
-	void listeDesSorts(){
-		for(Map.Entry<String, String> entree: this.grimoire.entrySet()){
+	void listeDesSorts() {
+		for (Map.Entry<String, String> entree : this.grimoire.entrySet()) {
 			System.out.println(entree.getKey() + " : " + entree.getValue());
 		}
 

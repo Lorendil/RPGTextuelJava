@@ -46,20 +46,6 @@ public class Personnages {
 				+ this.initiative + "\n Chance de critique : " + this.critique + " %\n Mana : " + this.mana + "/" + this.manaMax);
 	}
 
-	void showMainMenu() {
-		//Permet d'afficher le menu principal, avant une nouvelle partie
-
-	}
-
-	void showPauseMenu() {
-		//Permet d'afficher le menu principal pendant les phases hors combat
-
-	}
-
-	void showFightMenu() {
-		//Permet d'afficher les choix pendant le combat
-
-	}
 
 	void heal(int x) {
 		this.vitalite += x;
