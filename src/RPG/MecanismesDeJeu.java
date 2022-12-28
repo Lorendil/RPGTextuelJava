@@ -1,12 +1,17 @@
 package RPG;
 
+import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.List;
+import java.util.Map;
 import java.util.Random;
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class MecanismesDeJeu {
 
 	Personnages joueur;
+	Map Bestiaire = ImportCreatures.main();
 
 	void combat(Personnages joueur, Creature adversaire) {
 
@@ -29,15 +34,41 @@ public class MecanismesDeJeu {
 
 		return total;
 	}
+	public Creature Monstre(int salle) {
+		int difficulte = ThreadLocalRandom.current().nextInt((salle * 4), (61 + (salle * 2)) );
+		String rarete;
+
+		if (difficulte <= 60) {
+			rarete = "Commun";
+		}
+		else if (difficulte <= 85) {
+			rarete = "Peu Commun";
+		}
+		else if (difficulte <= 95) {
+			rarete = "Rare";
+		}
+		else {
+			rarete = "Unique";
+		}
+		List <Creature> listeMonstre = new ArrayList<>();
+		listeMonstre = (List<Creature>) Bestiaire.get(rarete);
+		Creature monstre = listeMonstre.get(ThreadLocalRandom.current().nextInt(0, listeMonstre.size()));
+		System.out.println("Les dés ont été tirés, c'est un " + difficulte + " ce qui correspond à un monstre " + rarete);
+		System.out.println(monstre);
+
+		return monstre;
+	}
 
 	void salle(int numeroDeLaSalle) {
-		if (numeroDeLaSalle == 5 || numeroDeLaSalle == 10 || numeroDeLaSalle == 15) {
-			System.out.println("Vous gagnez un niveau, sélectionnez votre bonus");
-		}
+		Monstre(numeroDeLaSalle);
+
 
 	}
 
-	void intersalles() {
+	void intersalles(int numeroDeLaSalle) {
+		if (numeroDeLaSalle == 5 || numeroDeLaSalle == 10 || numeroDeLaSalle == 15) {
+			System.out.println("Vous gagnez un niveau, sélectionnez votre bonus");
+		}
 
 	}
 
