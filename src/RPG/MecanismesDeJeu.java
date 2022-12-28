@@ -37,22 +37,25 @@ public class MecanismesDeJeu {
 
 	}
 
-	public static Scanner scannerMenu;
+	// public static Scanner scannerMenu;
 
 	public Personnages showMainMenu() {
 		// Permet d'afficher le menu principal, avant une nouvelle partie
 		Personnages joueur = null;
 		int choice = 0;
 		Boolean stepValide = false;
+		Scanner input; 
+		input = new Scanner(System.in);
+		
 
 		System.out.println(
 				"Bienvenue dans ce RPG textuel où vous incarnez un personnage parmis 3 classes et où vous entrerez dans 20 étages et affronter des monstres");
 
 		while (!stepValide) {
 			System.out.println("1 : Lancer le jeu");
-			try (Scanner scannerMenu = new Scanner(System.in)) {
-
-				choice = scannerMenu.nextInt();
+			try  {
+				choice = input.nextInt();
+				
 			}
 
 			catch (InputMismatchException e) {
@@ -72,23 +75,26 @@ public class MecanismesDeJeu {
 			while (!stepValide) {
 				System.out.println("Choisissez la classe de votre personnage !\n"
 						+ "1 : Guerrier \n2 : Mage \n3 : Voleur \n4 : Description des classes");
-				try (Scanner scannerMenu = new Scanner(System.in)) {
+				try {
 
-					choice = scannerMenu.nextInt();
+					choice = input.nextInt();
+					
+
 				} catch (InputMismatchException e) {
 					System.out.println("Oupsie c'est pas un chiffre qui est renseigné");
 					stepValide = false;
 				}
-			}
-			if (choice == 1) {
-				joueur = new Guerrier();
-				stepValide = true;
-			} else if (choice == 2) {
-				joueur = new Mage();
-				stepValide = true;
-			} else if (choice == 3) {
-				joueur = new Voleur();
-				stepValide = true;
+			
+				if (choice == 1) {
+					joueur = new Guerrier();
+					stepValide = true;
+				} else if (choice == 2) {
+					joueur = new Mage();
+					stepValide = true;
+				} else if (choice == 3) {
+					joueur = new Voleur();
+					stepValide = true;
+				}
 			}
 		}
 		return joueur;
