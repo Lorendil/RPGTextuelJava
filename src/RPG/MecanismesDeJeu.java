@@ -5,9 +5,13 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class MecanismesDeJeu {
+
+	Personnages joueur;
+
 	void combat(Personnages joueur, Creature adversaire) {
 
 	}
+
 
 	int calculDesDegats(Personnages attaquant, Personnages defenseur) {
 		int bonusAttaquant = 0;
@@ -39,7 +43,7 @@ public class MecanismesDeJeu {
 
 	// public static Scanner scannerMenu;
 
-	public Personnages showMainMenu() {
+	public void showMainMenu() {
 		// Permet d'afficher le menu principal, avant une nouvelle partie
 		Personnages joueur = null;
 		int choice = 0;
@@ -96,9 +100,8 @@ public class MecanismesDeJeu {
 					stepValide = true;
 				}
 			}
+			this.joueur = joueur;
 		}
-		return joueur;
-
 	}
 
 	void showPauseMenu() {
