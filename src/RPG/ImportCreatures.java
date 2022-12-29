@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.Map;
 
 public class ImportCreatures {
-	public static Map main() {
+	public static Map<String, List<Creature>> main() {
 
 		String ligne = "";
 		String splitBy = "\t";
 		int numeroLigne = 0;
-		Map<String, List> bestiaire = new HashMap<>();
+		Map<String, List<Creature>> bestiaire = new HashMap<String, List<Creature>>();
 		List<Creature> listeCommun = new ArrayList<Creature>();
 		List<Creature> listePeuCommun = new ArrayList<Creature>();
 		List<Creature> listeRare = new ArrayList<Creature>();
@@ -84,6 +84,7 @@ public class ImportCreatures {
 				}
 				numeroLigne += 1;
 			}
+			br.close();
 
 		}
 		catch (Exception e) {
